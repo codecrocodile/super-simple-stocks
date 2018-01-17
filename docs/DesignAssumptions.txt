@@ -1,0 +1,19 @@
+In order to simplify the code some assumptions have been made:
+
+Par value of a stock will never be zero
+
+Stock price of a stock will never be zero
+
+Fixed dividend of a preferred stock will never be zero
+
+Rounding of BigDecimal results will be done by the client of the application
+	
+Calculation off stock priced is based on the last 15 minutes of trading. If nothing has been traded in the 
+last 15 minutes then the stock priced is based on the last stock traded. In this case the no stocks have been
+traded then the stock priced is then the par value of the stock.
+
+Data store assumes that no trade will be recorded at exactly the same time (not multi-threaded)
+
+ 	
+	
+	

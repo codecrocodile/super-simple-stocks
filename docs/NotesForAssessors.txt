@@ -1,0 +1,33 @@
+Notes on assessing the Super Simple Stocks test:
+
+Really Important:
+
+0) Have they understood the specification? Does it compile? If there are test so they pass?
+
+Important:
+
+1) Look to see if the follow the SOLID design principles e.g. are they programming to interfaces and not implementations and 
+   that classes and methods have only one reason to change.
+2) Do the names off classes and method adequately describe their purpose?
+3) Are field and method modifiers at the most reduced access level?
+4) Look for good composition of functionality in classes. Could we easily change implementations of different functionality?
+5) Is the code easy to follow and is it written with fairly minimal lines of code?
+
+Fairly Important:
+
+6) Is it well tested? Are all the public methods tested appropriately?
+7) Is there any validation on the input? If not are there any documented assumptions about the client of the application?
+8) Are the data structures / collections the most efficient for their purpose?
+9) Have Java coding conventions been used e.g. formatting; ensuring if/else has brackets; order of statics, constructors and methods; etc...?
+
+Nice To Have:
+10) If its a Java implementation then have they used Maven, JUnit, Mockito or something similar?
+11) Is there any documentation or build instructions?
+
+Of course there are an endless number of criteria which can be used to assess code, but this is what first comes to my mind.
+
+If you have any comments on how this can be improved then get in touch.
+
+
+Chris Hatton (R552568)
+
